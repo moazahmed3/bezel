@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bezel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google font -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- bootstrap style -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- font awesome style -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!--  style css -->
+    <link rel="stylesheet" href="css/medai.css" />
+    <!--  media css -->
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target=".navbar" tabindex="0">
+    <nav class="navbar navbar-expand-lg fixed-top z-3 bg-light shadow">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo-dark.png" class="img-fluid" alt="logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 me-3 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#works">Works</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">contact</a>
+            </li>
+          </ul>         
+            <section class="d-flex medial d-none d-lg-block">
+              <ul class="navbar-nav gap-4 ms-4">
+                <li>
+                  <a href="https://www.facebook.com/" target="_blank"
+                    ><i class="fa-brands fa-facebook-f"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://www.twitter.com/" target="_blank"
+                    ><i class="fa-brands fa-twitter"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/"  target="_blank"
+                    ><i class="fa-brands fa-instagram"></i
+                  ></a>
+                </li>
+              </ul>
+            </section>
+        </div>
+      </div>
+    </nav>
+    <!-- start home -->
+    <header class="home" id="home">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div
+            class="carousel-item active bg-img-1 min-vh-100"
+            data-bs-interval="1000"
+          >
+            <div class="carousel-caption">
+              <h2>Get Awesome.</h2>
+              <p class="fs-5">
+                We are an innovative company making digital stuff.
+              </p>
+              <div class="home-btns d-flex gap-3 justify-content-center">
+                <a href="#" class="btn text-capitalize main-btn px-4 py-2 fs-4"
+                  >Read more
+                </a>
+                <a href="#" class="btn text-capitalize sec-btn px-4 py-2 fs-4"
+                  >contact
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="carousel-item min-vh-100 bg-img-2"
+            data-bs-interval="3000"
+          >
+            <div class="carousel-caption">
+              <h2>Create With Bezel.</h2>
+              <p class="fs-4 my-4">
+                We help ambitious companies create new value.
+              </p>
+              <div class="home-btns d-flex gap-3 justify-content-center">
+                <a href="#" class="btn text-capitalize main-btn px-4 py-2 fs-4"
+                  >Here us
+                </a>
+                <a href="#" class="btn text-capitalize sec-btn px-4 py-2 fs-4"
+                  >services
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="arrows">
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span
+              class="carousel-control-prev-icon d-flex justify-content-center align-items-center"
+              aria-hidden="true"
+            >
+              <i class="fa-solid fa-arrow-left"></i>
+            </span>
+            <span
+              class="overlay-icon d-block d-flex justify-content-center align-items-center"
+            >
+            </span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span
+              class="carousel-control-next-icon d-flex justify-content-center align-items-center"
+              aria-hidden="true"
+            >
+              <i class="fa-solid fa-arrow-right"></i>
+            </span>
+            <span
+              class="overlay-icon d-block d-flex justify-content-center align-items-center"
+            >
+            </span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <!-- end home -->
+
+    <!-- start about -->
+    <div class="about py-5 mt-5 border-bottom" id="about">
+      <div class="container text-center py-4">
+        <div class="about-contant w-75 m-auto">
+          <h3 class="fs-6 fw-semibold">WHO WE ARE</h3>
+          <p class="text-body-tertiary fw-light fs-4 mb-0">
+            We are an innovative company. We develop and design
+            <span class="about-anmation fw-semibold main-color"></span>
+            for
+          </p>
+          <p class="text-body-tertiary fw-light fs-4 mt-0">
+            costumers around the world. Our clients are some of the most
+            forward-looking companies in the world.
+          </p>
+          <a
+            href="#"
+            class="btn sec-btn px-4 py-2 mt-5 text-uppercase border border-1"
+            >Read more</a
+          >
+        </div>
+      </div>
+    </div>
+    <!-- end about -->
+
+    <!-- start  -->
+    <div class="team py-5 mt-5" id="team">
+      <div class="main-header text-center text-capitalize">
+        <h3 class="fs-1">Creative Team</h3>
+        <h6 class="text-body-tertiary fw-semibold">We are digital thinkers</h6>
+      </div>
+      <div class="container">
+        <div class="inner-team py-5">
+          <div class="row">
+            <div class="col-md-6 col-lg-3">
+              <div class="card border-0 p-2 py-3">
+                <div class="inner-card">
+                  <img
+                    src="./img/team-1.jpg"
+                    class="img-fluid d-block"
+                    alt="team-1"
+                  />
+                  <div class="overlay-card">
+                    <div class="media d-flex gap-3">
+                      <a href="https://www.facebook.com/" target="_blank"
+                        ><i class="fa-brands fa-facebook-f"></i
+                      ></a>
+                      <a href="https://www.twitter.com/" target="_blank"
+                        ><i class="fa-brands fa-twitter"></i
+                      ></a>
+                      <a href="https://www.linkedin.com/" target="_blank"
+                        ><i class="fa-brands fa-linkedin"></i
+                      ></a>
+                    </div>
+                    <div class="content">
+                      <p class="m-0">LUKE CAGE</p>
+                      <p class="m-0">Founder & CEO</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card border-0 p-2 py-3">
+                <div class="inner-card">
+                  <img
+                    src="./img/team-2.jpg"
+                    class="img-fluid d-block"
+                    alt="team-1"
+                  />
+                  <div class="overlay-card">
+                    <div class="media d-flex gap-3">
+                      <a href="https://www.facebook.com/" target="_blank"
+                        ><i class="fa-brands fa-facebook-f"></i
+                      ></a>
+                      <a href="https://www.twitter.com/" target="_blank"
+                        ><i class="fa-brands fa-twitter"></i
+                      ></a>
+                      <a href="https://www.linkedin.com/" target="_blank"
+                        ><i class="fa-brands fa-linkedin"></i
+                      ></a>
+                    </div>
+                    <div class="content">
+                      <p class="m-0">LUKE CAGE</p>
+                      <p class="m-0">Founder & CEO</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card border-0 p-2 py-3">
+                <div class="inner-card">
+                  <img
+                    src="./img/team-3.jpg"
+                    class="img-fluid d-block"
+                    alt="team-3"
+                  />
+                  <div class="overlay-card">
+                    <div class="media d-flex gap-3">
+                      <a href="https://www.facebook.com/" target="_blank"
+                        ><i class="fa-brands fa-facebook-f"></i
+                      ></a>
+                      <a href="https://www.twitter.com/" target="_blank"
+                        ><i class="fa-brands fa-twitter"></i
+                      ></a>
+                      <a href="https://www.linkedin.com/" target="_blank"
+                        ><i class="fa-brands fa-linkedin"></i
+                      ></a>
+                    </div>
+                    <div class="content">
+                      <p class="m-0">LUKE CAGE</p>
+                      <p class="m-0">Founder & CEO</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card border-0 p-2 py-3">
+                <div class="inner-card">
+                  <img
+                    src="./img/team-4.jpg"
+                    class="img-fluid d-block"
+                    alt="team-1"
+                  />
+                  <div class="overlay-card">
+                    <div class="media d-flex gap-3">
+                      <a href="https://www.facebook.com/" target="_blank"
+                        ><i class="fa-brands fa-facebook-f"></i
+                      ></a>
+                      <a href="https://www.twitter.com/" target="_blank"
+                        ><i class="fa-brands fa-twitter"></i
+                      ></a>
+                      <a href="https://www.linkedin.com/" target="_blank"
+                        ><i class="fa-brands fa-linkedin"></i
+                      ></a>
+                    </div>
+                    <div class="content">
+                      <p class="m-0">LUKE CAGE</p>
+                      <p class="m-0">Founder & CEO</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end  -->
+
+    <!-- start Services -->
+    <div class="services py-5" id="services">
+      <div class="container pt-5">
+        <div class="list-header mt-5 mb-5 pb-5">
+          <div class="row">
+            <div class="col-lg-2 col-md-4 text-center text-md-start mb-5">
+              <h6 class="text-light fw-semibold">STUNNING DESIGN</h6>
+            </div>
+            <div class="col-lg-2 col-md-4 text-center text-md-start mb-5">
+              <h6 class="text-light fw-semibold">TIME SAVER</h6>
+            </div>
+            <div class="col-lg-2 col-md-4 text-center text-md-start mb-5">
+              <h6 class="text-light fw-semibold">CLEAN CODE</h6>
+            </div>
+            <div class="col-lg-2 col-md-4 text-center text-md-start mb-5">
+              <h6 class="text-light fw-semibold">CUSTOMIZABLE</h6>
+            </div>
+            <div class="col-lg-2 col-md-4 text-center text-md-start mb-5">
+              <h6 class="text-light fw-semibold">PERFECT LAYOUT</h6>
+            </div>
+            <div class="col-lg-2 col-md-4 text-center text-md-start mb-5">
+              <h6 class="text-light fw-semibold">RETINA READY</h6>
+            </div>
+          </div>
+        </div>
+        <div class="services-list text-light mt-5">
+          <div class="row">
+            <div class="col-lg-6 text-center text-lg-start">
+              <h4 class="fs-2">What We Do.</h4>
+              <p class="w-75 mt-4 mb-5">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aliquam ipsam ullam incidunt itaque nemo omnis temporibus totam
+                quibusdam repellat vero, recusandae excepturi dignissimos velit
+                et alias amet, quia facilis perferendis.
+              </p>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <ul class="mt-3">
+                <li class="d-flex align-items-center gap-2">
+                  <span><i class="fa-solid fa-check"></i></span> Research
+                </li>
+                <li class="d-flex align-items-center gap-2">
+                  <span><i class="fa-solid fa-check"></i></span>
+                  Opportunity Analysis
+                </li>
+                <li class="d-flex align-items-center gap-2">
+                  <span><i class="fa-solid fa-check"></i></span>
+                  Consulting
+                </li>
+                <li class="d-flex align-items-center gap-2">
+                  <span><i class="fa-solid fa-check"></i></span>
+                  Brand Planning
+                </li>
+                <li class="d-flex align-items-center gap-2">
+                  <span><i class="fa-solid fa-check"></i></span>
+                  Customer Support
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <ul class="mt-3">
+                <li class="d-flex align-items-center gap-2">
+                  <span><i class="fa-solid fa-check"></i></span>
+                  Logo & Branding
+                </li>
+                <li class="d-flex align-items-center gap-2">
+                  <span><i class="fa-solid fa-check"></i></span>
+                  Style guides
+                </li>
+                <li class="d-flex align-items-center gap-2">
+                  <span><i class="fa-solid fa-check"></i></span>
+                  Motion graphics
+                </li>
+                <li class="d-flex align-items-center gap-2">
+                  <span><i class="fa-solid fa-check"></i></span>
+                  UX/UI-design
+                </li>
+                <li class="d-flex align-items-center gap-2">
+                  <span><i class="fa-solid fa-check"></i></span>
+                  Social media design
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end Services -->
+    <!-- start works -->
+    <div class="works bg-light py-5" id="works">
+      <div class="main-header py-3 text-center text-capitalize">
+        <h3 class="fs-1">Cheap Prices</h3>
+        <h6 class="text-body-tertiary fw-semibold">
+          We provide the best quality.
+        </h6>
+      </div>
+
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="card border-0 bg-white mt-5 shadow">
+              <div class="inner-card p-5">
+                <p>Starter</p>
+                <h3 class="border-bottom fw-semibold fs-1 pb-4">
+                  <span>$</span>9
+                </h3>
+                <p class="mt-3">Unlimited Connections</p>
+                <p>24/7 Support</p>
+                <p>Full SSL Protection</p>
+                <p>Unlimited Channels</p>
+                <a href="#" class="btn main-btn text-capitalize">sing up</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="card border-0 bg-white mt-5 shadow">
+              <div class="inner-card p-5">
+                <p>Silver</p>
+                <h3 class="border-bottom fw-semibold fs-1 pb-4">
+                  <span>$</span>19
+                </h3>
+                <p class="mt-3">Unlimited Connections</p>
+                <p>24/7 Support</p>
+                <p>Full SSL Protection</p>
+                <p>Unlimited Channels</p>
+                <a href="#" class="btn main-btn text-capitalize">sing up</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="card border-0 bg-white mt-5 shadow gold">
+              <div class="inner-card p-5">
+                <div class="d-flex justify-content-between align-items-center">
+                  <p>Gold</p>
+                  <p
+                    class="btn value-best px-2 fs-6 bg-main text-light rounded-pill"
+                  >
+                    BEST VALUE
+                  </p>
+                </div>
+                <h3 class="border-bottom main-color fw-semibold fs-1 pb-4">
+                  <span>$</span>29
+                </h3>
+                <p class="mt-3">Unlimited Connections</p>
+                <p>24/7 Support</p>
+                <p>Full SSL Protection</p>
+                <p>Unlimited Channels</p>
+                <a href="#" class="btn main-btn text-capitalize">sing up</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="card border-0 bg-white mt-5 shadow">
+              <div class="inner-card p-5">
+                <p>Platinum</p>
+                <h3 class="border-bottom fw-semibold fs-1 pb-4">
+                  <span>$</span>49
+                </h3>
+                <p class="mt-3">Unlimited Connections</p>
+                <p>24/7 Support</p>
+                <p>Full SSL Protection</p>
+                <p>Unlimited Channels</p>
+                <a href="#" class="btn main-btn text-capitalize">sing up</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end works-->
+    <div class="pricing py-5 bg-light" id="pricing">
+      <div class="container py-5">
+        <div
+          id="carouselworks"
+          class="carousel slide py-5"
+          data-bs-ride="carousel"
+        >
+          <h6 class="fw-semibold mb-4 text-center">Happy Customers</h6>
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselworks"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselworks"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+          </div>
+          <div class="carousel-inner w-75 m-auto py-5">
+            <div class="carousel-item active p-lg-5">
+              <div class="pricing-inner text-center px-lg-5">
+                <div class="content-pricing bg-white p-5 pt-0 shadow rounded">
+                  <img
+                    src="./img/testimonial-1.jpg"
+                    alt="testimonial-1"
+                    class="img-fluid rounded-pill"
+                  />
+                  <h4 class="mt-4">Marissa Mayer</h4>
+                  <span class="fw-bold text-secondary pt-2 pb-4 d-block"
+                    >CEO, Yahoo</span
+                  >
+                  <p class="text-secondary fw-light fs-5 lh-base py-3">
+                    Quo rem cumque facere modi beatae. Deleniti nisi, repellat
+                    quae aspernatur consequatur consequuntur, fugit asperiores
+                    delectus beatae. Quae veniam, quidem cupiditate quia? Ut
+                    iste deleniti.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item p-lg-5">
+              <div class="pricing-inner text-center px-lg-5">
+                <div class="content-pricing bg-white p-5 pt-0 shadow rounded">
+                  <img
+                    src="./img/testimonial-2.jpg"
+                    alt="testimonial-1"
+                    class="img-fluid rounded-pill"
+                  />
+                  <h4 class="mt-4">Marissa Mayer</h4>
+                  <span class="fw-bold text-secondary pt-2 pb-4 d-block"
+                    >CEO, Yahoo</span
+                  >
+                  <p class="text-secondary fw-light fs-5 lh-base py-3">
+                    Quo rem cumque facere modi beatae. Deleniti nisi, repellat
+                    quae aspernatur consequatur consequuntur, fugit asperiores
+                    delectus beatae. Quae veniam, quidem cupiditate quia? Ut
+                    iste deleniti.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev d-none d-lg-block"
+            type="button"
+            data-bs-target="#carouselworks"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true">
+              <i class="fa-solid fa-arrow-left"></i>
+            </span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next d-none d-lg-block"
+            type="button"
+            data-bs-target="#carouselworks"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true">
+              <i class="fa-solid fa-arrow-right"></i>
+            </span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- start contact -->
+    <div class="contact" id="contact">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d27969.34462391757!2d31.2066631!3d29.3394361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sar!2seg!4v1749106797800!5m2!1sar!2seg"
+              width="600"
+              height="650"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="col-lg-5">
+            <div class="contact-content p-lg-5 p-sm-2">
+              <div class="main-header text-capitalize">
+                <h3 class="fs-1">Get In Touch</h3>
+                <h6 class="text-body-tertiary fw-semibold">
+                  Let's work together.
+                </h6>
+              </div>
+              <form action="" class="form my-5">
+                <div class="mb-3">
+                  <label for="name" class="form-label">Your Name</label>
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    class="form-control"
+                    placeholder=""
+                    aria-describedby="helpId"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Your Email</label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    class="form-control"
+                    placeholder=""
+                    aria-describedby="helpId"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="phone" class="form-label">Phone Number</label>
+                  <input
+                    type="tel"
+                    name="phone"
+                    id="phone"
+                    class="form-control"
+                    placeholder=""
+                    aria-describedby="helpId"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label">Your Message</label>
+                  <textarea
+                    name="message"
+                    class="form-control"
+                    id="message"
+                  ></textarea>
+                </div>
+                <button type="submit" class="text-capitalize btn main-btn">
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end contact -->
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

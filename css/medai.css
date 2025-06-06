@@ -1,0 +1,70 @@
+@media (max-width: 1400px) {
+  
+       .pricing .carousel-inner{
+        width: 75% !important;
+    }
+}
+
+@media (max-width: 1200px) {
+   
+}
+
+@media (max-width: 992px) {
+    /* pricing  */
+      .pricing .carousel-inner{
+        width: 100% !important;
+    }
+
+    /* pricing */
+    /* start services */
+    .services-list p {
+        width: 100% !important;
+    }
+
+    /* services end */
+
+    .gold {
+        transform: scale(1);
+    }
+
+    .contact iframe {
+        min-height: 350px;
+        width: 100%;
+        margin-bottom: 35px;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .arrows {
+        display: none;
+    }
+    
+  .home  .carousel-caption h2 {
+        font-size: 50px !important;
+    }
+
+  .home  .carousel-caption {
+        top: 25%;
+    }
+
+    .home-btns a {
+        /* padding: 5px 10px !important; */
+        font-size: 18px !important;
+    }
+
+    /* end home */
+    /* start about */
+    .about-contant p {
+        font-size: 16px !important;
+    }
+
+    /* end about */
+
+
+}
+
+@media (max-width: 576px) {}
+
+@media (max-width: 400px) {}
